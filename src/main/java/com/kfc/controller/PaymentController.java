@@ -17,7 +17,7 @@ import com.kfc.services.PaymentServiceClass;
 
 import jakarta.validation.Valid;
 
-@CrossOrigin("*")
+@CrossOrigin(originPatterns = "*")
 @RestController
 @RequestMapping("/payment")
 public class PaymentController {

@@ -21,7 +21,7 @@ import com.kfc.dto.UserMembershipDTO;
 import com.kfc.pojo.UserMembership;
 import com.kfc.services.UserMembershipServiceClass;
 
-@CrossOrigin(origins = "*")
+@CrossOrigin(originPatterns = "*")
 @RestController
 @RequestMapping("/usermembership")
 public class UserMembershipController {

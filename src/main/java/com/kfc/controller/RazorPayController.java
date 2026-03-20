@@ -18,7 +18,7 @@ import com.razorpay.Order;
 import com.razorpay.RazorpayClient;
 import com.razorpay.RazorpayException;
 
-@CrossOrigin(origins = "*") // Note: Restrict this to your frontend URL in production!
+@CrossOrigin(originPatterns = "*")
 @RestController
 public class RazorPayController {
 	

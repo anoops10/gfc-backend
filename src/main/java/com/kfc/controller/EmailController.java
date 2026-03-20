@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.kfc.dto.EmailDTO;
 import com.kfc.services.EmailServiceClass;
 
-@CrossOrigin(origins = "*")
+@CrossOrigin(originPatterns = "*")
 @RestController
 public class EmailController {
 	

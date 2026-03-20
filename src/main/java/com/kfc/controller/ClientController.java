@@ -20,7 +20,7 @@ import com.kfc.services.ClientDataServiceClass;
 
 import jakarta.validation.Valid;
 
-@CrossOrigin("*")
+@CrossOrigin(originPatterns = "*")
 @RestController
 @RequestMapping("/client")
 public class ClientController {

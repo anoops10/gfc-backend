@@ -20,7 +20,7 @@ import com.kfc.services.TrainerServiceClass;
 
 import jakarta.validation.Valid;
 
-@CrossOrigin(origins = "*")
+@CrossOrigin(originPatterns = "*")
 @RestController
 @RequestMapping("/trainer")
 public class TrainerController {

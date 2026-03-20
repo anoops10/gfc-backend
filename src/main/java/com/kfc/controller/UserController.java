@@ -24,7 +24,7 @@ import com.kfc.services.UserServicesClass;
 
 import jakarta.validation.Valid;
 
-@CrossOrigin(origins = "*")
+@CrossOrigin(originPatterns = "*")
 @RestController
 @RequestMapping("/users")
 public class UserController {

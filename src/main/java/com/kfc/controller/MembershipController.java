@@ -15,7 +15,7 @@ import com.kfc.services.MembershipServicesClass;
 
 import jakarta.validation.Valid;
 
-@CrossOrigin(origins = "*")
+@CrossOrigin(originPatterns = "*")
 @RestController
 @RequestMapping("/membership")
 public class MembershipController {
